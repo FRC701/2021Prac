@@ -1,0 +1,47 @@
+See file:///C:/workspace2019/Remembrance2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling ExampleCommand.cpp failed.
+In file included from C:\workspace2019\Remembrance2020\src\main\include/commands/ExampleCommand.h:13:0,
+                 from C:\workspace2019\Remembrance2020\src\main\cpp\commands\ExampleCommand.cpp:8:
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:17:29: error: expected ')' before '&' token
+   ExampleSubsystem(backRight& backRight);
+                             ^
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:24:3: error: 'WPI_TalonFX' does not name a type
+   WPI_TalonFX& mbackRight;
+   ^~~~~~~~~~~
+
+compiling ExampleSubsystem.cpp failed.
+In file included from C:\workspace2019\Remembrance2020\src\main\cpp\subsystems\ExampleSubsystem.cpp:8:0:
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:17:29: error: expected ')' before '&' token
+   ExampleSubsystem(backRight& backRight);
+                             ^
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:24:3: error: 'WPI_TalonFX' does not name a type
+   WPI_TalonFX& mbackRight;
+   ^~~~~~~~~~~
+C:\workspace2019\Remembrance2020\src\main\cpp\subsystems\ExampleSubsystem.cpp:10:35: error: expected constructor, destructor, or type conversion before '(' token
+ ExampleSubsystem::ExampleSubsystem(backRight& backRight) {
+                                   ^
+
+compiling RobotContainer.cpp failed.
+In file included from C:\workspace2019\Remembrance2020\src\main\include/commands/ExampleCommand.h:13:0,
+                 from C:\workspace2019\Remembrance2020\src\main\include/RobotContainer.h:12,
+                 from C:\workspace2019\Remembrance2020\src\main\cpp\RobotContainer.cpp:8:
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:17:29: error: expected ')' before '&' token
+   ExampleSubsystem(backRight& backRight);
+                             ^
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:24:3: error: 'WPI_TalonFX' does not name a type
+   WPI_TalonFX& mbackRight;
+   ^~~~~~~~~~~
+
+compiling Robot.cpp failed.
+In file included from C:\workspace2019\Remembrance2020\src\main\include/commands/ExampleCommand.h:13:0,
+                 from C:\workspace2019\Remembrance2020\src\main\include/RobotContainer.h:12,
+                 from C:\workspace2019\Remembrance2020\src\main\include/Robot.h:13,
+                 from C:\workspace2019\Remembrance2020\src\main\cpp\Robot.cpp:8:
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:17:29: error: expected ')' before '&' token
+   ExampleSubsystem(backRight& backRight);
+                             ^
+C:\workspace2019\Remembrance2020\src\main\include/subsystems/ExampleSubsystem.h:24:3: error: 'WPI_TalonFX' does not name a type
+   WPI_TalonFX& mbackRight;
+   ^~~~~~~~~~~
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/workspace2019/Remembrance2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
